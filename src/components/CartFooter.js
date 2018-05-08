@@ -2,11 +2,11 @@
 import React from 'react'
 
 // 2. Create a function
-const CartFooter = () => {
+const CartFooter = ({copyright}) => {
   // 3. Return some JSX
   return (
     <nav className="navbar navbar-dark bg-dark">
-      <a className="navbar-brand" href="#">&copy; 2018</a>
+      <a className="navbar-brand" href="#">&copy; {copyright}</a>
     </nav>
   )
 }
